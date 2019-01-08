@@ -1,0 +1,27 @@
+{
+  "name": "passport-zalo",
+  "version": "1.0.0",
+  "description": "Zalo authentication strategy for Passport require zalo-sdk.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/longldktmm/passport-zalo.git"
+  },
+  "keywords": [
+    "passport-zalo",
+    "zalo",
+    "Zalo",
+    "passport",
+    "nodejs",
+    "zalo-sdk"
+  ],
+  "author": "Long ACTVN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/longldktmm/passport-zalo/issues"
+  },
+  "homepage": "https://github.com/longldktmm/passport-zalo#readme"
+}
