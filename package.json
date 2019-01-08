@@ -1,6 +1,6 @@
 {
   "name": "passport-zalo",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Zalo authentication strategy for Passport require zalo-sdk.",
   "main": "./lib/index.js",
   "scripts": {
