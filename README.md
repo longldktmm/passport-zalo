@@ -15,14 +15,16 @@ var ZaloStrategy = require('passport-zalo').Strategy;
 passport.use(new ZaloStrategy({
     clientID: "clientID",
     clientSecret: "clientSecret",
-    callbackURL: "https://domain.com/api/v1/staff/account/login-by-zalo",
+    callbackURL: "https://domain.com/api/account/login-by-zalo",
 },function (accessToken, refreshToken, profile, done) {
     	return done(profile);
     }
 ));
 ---------------------------------------------------------------------------------
-In controller
-staffLoginByZalo: function (req, res) {
+In controller:
+
+'get /api/account/login-by-zalo': 'Controller.LoginByZalo',
+LoginByZalo: function (req, res) {
         passport.authenticate('zalo', function (err, data) {
             if (err || !data) {
                 return res.failed("ERR01",err,data);
